@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+		<title>Depresso Pharmacy</title>
+
+		<link rel="stylesheet" href="/css/all.css" />
+		<link rel="stylesheet" href="/css/header.css" />
+		<link rel="stylesheet" href="/css/section.css" />
+		<link rel="stylesheet" href="/css/footer.css" />
+		<!-- <script src="file.js"></script> -->
+	</head>
+	<body>
+		<header>
+			<div id="wojak-id" class="inheader"></div>
+			<div id="funny" class="inheader"></div>
+			<div id="contacts-id" class="inheader">
+				<div id="kasha" class="contact">
+					каша
+					<a
+						href="https://vk.com/bruh__momentum"
+						id="kasha"
+						class="contact2"
+					></a>
+				</div>
+				<div id="pura" class="contact">
+					пура
+					<a
+						href="https://vk.com/yappppp"
+						id="pura"
+						class="contact2"
+					></a>
+				</div>
+				<div id="syn" class="contact">
+					син
+					<a
+						href="https://vk.com/morkovka_boy"
+						id="syn"
+						class="contact2"
+					></a>
+				</div>
+			</div>
+		</header>
+		<section>
+			<div class="clicking-area">
+				<div class="sad-text">Заработок с угробленных жизней:</div>
+				<div class="total-money">
+					<span id="money">0</span>
+				</div>
+				<div class="total-money-per-sec">
+					<span id="money-per-sec">0</span>
+					/сек
+				</div>
+				<div
+					id="tabletka-id"
+					class="tabletka-class"
+					onclick="addMoni(clickWeight)"
+				></div>
+				<!-- <div class="animation"></div> -->
+			</div>
+			<div id="levels-id" class="levels-class">
+				<div class="level-button" onclick="lvl1toggle();">I</div>
+				<div class="level-button" onclick="lvl2toggle();">II</div>
+				<div class="level-button" onclick="lvl3toggle();">III</div>
+				<div class="level-button" onclick="lvl4toggle();">IV</div>
+			</div>
+			<div class="uprades">
+				<div class="lvl1-up">
+					<div class="upgrade-buttons">
+						<!-- "имя-b" в id улучшений это обозначение того, что это кнопка (b от слова button), чтобы потом не перепутать -->
+						<div id="click-weighter-b" class="single-upgrade">
+							<div class="button-img"></div>
+							<div class="button-name"></div>
+							<div class="button-price"></div>
+							<div class="button-bought"></div>
+						</div>
+						<div id="worker-b" class="single-upgrade">
+							<div class="button-img"></div>
+							<div class="button-name"></div>
+							<div class="button-price"></div>
+							<div class="button-bought"></div>
+						</div>
+						<div id="news-ads-b" class="single-upgrade">
+							<div class="button-img"></div>
+							<div class="button-name"></div>
+							<div class="button-price"></div>
+							<div class="button-bought"></div>
+						</div>
+						<div id="student-b" class="single-upgrade">
+							<div class="button-img"></div>
+							<div class="button-name"></div>
+							<div class="button-price"></div>
+							<div class="button-bought"></div>
+						</div>
+					</div>
+				</div>
+				<div class="lvl2-up">
+					<div class="upgrade-buttons">
+						<!-- "имя-b" в id улучшений это обозначение того, что это кнопка, чтобы потом не перепутать -->
+						<div id="migrant-b" class="single-upgrade">
+							<div class="button-img"></div>
+							<div class="button-name"></div>
+							<div class="button-price"></div>
+							<div class="button-bought"></div>
+						</div>
+						<div id="television-b" class="single-upgrade">
+							<div class="button-img"></div>
+							<div class="button-name"></div>
+							<div class="button-price"></div>
+							<div class="button-bought"></div>
+						</div>
+						<div id="sciense-b" class="single-upgrade">
+							<div class="button-img"></div>
+							<div class="button-name"></div>
+							<div class="button-price"></div>
+							<div class="button-bought"></div>
+						</div>
+						<div id="overseer-b" class="single-upgrade">
+							<div class="button-img"></div>
+							<div class="button-name"></div>
+							<div class="button-price"></div>
+							<div class="button-bought"></div>
+						</div>
+					</div>
+				</div>
+				<div class="lvl3-up">
+					<div class="upgrade-buttons">
+						<!-- "имя-b" в id улучшений это обозначение того, что это кнопка, чтобы потом не перепутать -->
+						<div id="child-b" class="single-upgrade">
+							<div class="button-img"></div>
+							<div class="button-name"></div>
+							<div class="button-price"></div>
+							<div class="button-bought"></div>
+						</div>
+						<div id="spam-b" class="single-upgrade">
+							<div class="button-img"></div>
+							<div class="button-name"></div>
+							<div class="button-price"></div>
+							<div class="button-bought"></div>
+						</div>
+						<div id="researcher-b" class="single-upgrade">
+							<div class="button-img"></div>
+							<div class="button-name"></div>
+							<div class="button-price"></div>
+							<div class="button-bought"></div>
+						</div>
+						<div id="tests-b" class="single-upgrade">
+							<div class="button-img"></div>
+							<div class="button-name"></div>
+							<div class="button-price"></div>
+							<div class="button-bought"></div>
+						</div>
+					</div>
+				</div>
+				<div class="lvl4-up">
+					<div class="upgrade-buttons">
+						<!-- "имя-b" в id улучшений это обозначение того, что это кнопка, чтобы потом не перепутать -->
+						<div id="robo-b" class="single-upgrade">
+							<div class="button-img"></div>
+							<div class="button-name"></div>
+							<div class="button-price"></div>
+							<div class="button-bought"></div>
+						</div>
+						<div id="zeppelin-b" class="single-upgrade">
+							<div class="button-img"></div>
+							<div class="button-name"></div>
+							<div class="button-price"></div>
+							<div class="button-bought"></div>
+						</div>
+						<div id="neuro-b" class="single-upgrade">
+							<div class="button-img"></div>
+							<div class="button-name"></div>
+							<div class="button-price"></div>
+							<div class="button-bought"></div>
+						</div>
+						<div id="spacehypnolaser-b" class="single-upgrade">
+							<div class="button-img"></div>
+							<div class="button-name"></div>
+							<div class="button-price"></div>
+							<div class="button-bought"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div id="save-n-reset-id" class="save-n-reset-class">
+				<div
+					onclick="saveGame();"
+					onclick="alert('игра сохранена!');"
+					class="save"
+				>
+					Сохранить прогресс
+				</div>
+				<div onclick="gameReset();" class="reset">
+					Сбросить прогресс
+				</div>
+			</div>
+			<div class="spravka-show" onclick="showSpravka()"></div>
+			<div id="info-id" class="info-class">
+				<div class="optimized">
+					<p>оптимизировано</p>
+					<p>для смартфонов :></p>
+				</div>
+				<div class="gameVersion">версия игры: 2.43</div>
+			</div>
+			<div
+				id="allcover-id"
+				class="allcover-class"
+				onclick="hideSpravka()"
+			></div>
+			<div id="spravks-id" class="spravka-class" onclick="hideSpravka()">
+				<!--подумать, всё-ли записал-->
+				<h2>Справка</h2>
+				<p></p>
+				<h1 id="wellcum">Добро пожаловать в Depresso Clicker!</h1>
+				<h2>
+					Здесь вы будете зарабатывать деньги на депрессивных людях.
+				</h2>
+				<p></p>
+				<h3>Ваши обязанности:</h3>
+				<ul>
+					<li>Кликать грустную Кошку-картошку™!</li>
+					<li>Развивать свою компанию!</li>
+					<li>Делать свою жизнь лучше!</li>
+					<li>Делать жизнь других хуже!</li>
+				</ul>
+				<p>
+					- Улучшения делятся на 4 этапа, для перехода на следующий,
+					необходимо купить по 10 едениц улучшений предыдущего этапа.
+				</p>
+				<p>
+					- Чтобы увидеть описание улучшения, потрогайте картинку
+					этого улучшения(ПОКА ЕЩЁ НЕ СДЕЛАЛ).
+				</p>
+				<p></p>
+				<p></p>
+				<p>
+					- Чтобы увидеть справку снова, потрогайте кнопку справки
+					внизу экрана.
+				</p>
+				<p></p>
+				<p></p>
+				<p>
+					- Чтобы закрыть это окно, нажмите в любом месте на экране
+					(кроме кнопки закрытия, пожалуйста, не надо).
+				</p>
+			</div>
+		</footer>
+	</body>
+</html>

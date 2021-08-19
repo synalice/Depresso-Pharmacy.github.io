@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
 html {
 	font-family: "Press Start 2P", cursive;
 	font-size: 15px;
@@ -119,41 +120,7 @@ header {
 	background-position: bottom;
 	border-radius: 7px;
 }
-.textpain {
-	height: 20px;
-	width: 494px;
-	margin-left: 50%;
-	margin-top: 4%;
-	transform: translate(-50%, -50%);
-	background-color: rgba(6, 20, 9, 0.6);
-	color: white;
-	line-height: 22px;
-	text-align: center;
-}
-.pain {
-	width: 580px;
-	height: 69px;
-	margin-left: 50%;
-	margin-top: 3.5%;
-	transform: translate(-50%, -50%);
-	background-color: rgba(6, 20, 9, 0.6);
-	color: white;
-	text-align: center;
-	line-height: 79px;
-	font-size: 50px;
-}
-.painPS {
-	width: 200px;
-	height: 20px;
-	margin-left: 50%;
-	margin-top: 0;
-	transform: translate(-50%, -150%);
-	background-color: rgba(6, 20, 9, 0.6);
-	color: white;
-	text-align: center;
-	line-height: 22px;
-	text-align: center;
-}
+
 /*подумать над пикчейи размером, добаыить котику анимацию и возможно какойнибудть эффект на задний план*/
 @keyframes rotate {
 	from {
@@ -184,15 +151,7 @@ header {
 	background-position: center;
 	touch-action: manipulation;
 }
-.anime {
-	height: 100px;
-	width: 100px;
-	background-color: white;
-	animation-duration: 5s;
-	animation-name: movenime;
-	animation-timing-function: linear;
-	display: none;
-}
+
 @keyframes movenime {
 	from {
 		transform: translate(-10000%, 150%);
@@ -201,12 +160,7 @@ header {
 		transform: translate(10000%, 150%);
 	}
 }
-.piss {
-	height: 100px;
-	margin: 1% 2%;
-	background-color: #94b0da;
-	border-radius: 7px;
-}
+
 /*uwu*/
 #sussy-baka {
 	display: flex;
@@ -481,7 +435,7 @@ header {
 	flex-direction: column;
 	justify-content: space-around;
 }
-.infoo {
+.o {
 	height: 80px;
 	width: 80px;
 	border-radius: 40px;
