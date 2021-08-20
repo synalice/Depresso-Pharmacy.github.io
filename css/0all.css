@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+html {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+    /* font-weight: bold; */
+    /* background-color: #343F3E */
+}
+
+body {
+	background-color: pink;
+	margin: 0;
+	background-image: url(https://sher.media/wp-content/uploads/2020/10/2795340439_bacf3599c7_o.jpg);
+}

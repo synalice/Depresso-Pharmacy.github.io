@@ -1,0 +1,114 @@
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	justify-content: center;
+	background-color: rgba(10, 10, 10, 0.4);
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.clicking-area {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: nowrap;
+
+	overflow: hidden;
+	height: 600px;
+	margin: 1% 2%;
+	background-color: #343f3e;
+	background-image: url(https://i.imgur.com/JJNqDml_d.webp?maxwidth=640&shape=thumb&fidelity=medium);
+	background-size: cover;
+	background-position: bottom;
+	border-radius: 7px;
+}
+
+.sad-text {
+	height: 20px;
+	width: 500px;
+	/* margin-left: 50%; */
+	margin-top: 4%;
+	/* transform: translate(-50%, -50%); */
+	background-color: rgba(6, 20, 9, 0.6);
+	color: white;
+	line-height: 22px;
+	text-align: center;
+}
+.total-money {
+	width: 580px;
+	height: 69px;
+	margin-top: 1.5%;
+	background-color: rgba(6, 20, 9, 0.6);
+	color: white;
+	text-align: center;
+	line-height: 79px;
+	font-size: 50px;
+}
+.total-money-per-sec {
+	width: 200px;
+	height: 20px;
+	margin-top: 0.3%;
+	background-color: rgba(6, 20, 9, 0.6);
+	color: white;
+	text-align: center;
+	line-height: 22px;
+	text-align: center;
+}
+
+.tabletka-class {
+	background-image: url("https://i.imgur.com/8ariOk6_d.webp?maxwidth=640&shape=thumb&fidelity=medium");
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 30%;
+	width: 30%;
+}
+
+.animation {
+	height: 100px;
+	width: 100px;
+	background-color: white;
+	animation-duration: 5s;
+	animation-name: movenime;
+	animation-timing-function: linear;
+	display: none;
+}
+
+.levels-class {
+	height: 100px;
+	margin: 1% 2%;
+	background-color: #94b0da;
+	border-radius: 7px;
+}
+
+.level-button {
+	/*background-image: url(https://i.imgur.com/bchbfa3_d.webp?maxwidth=640&shape=thumb&fidelity=medium);*/
+	height: 85px;
+	width: 20%;
+	border-radius: 15px;
+	background-color: #343f3e;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: white;
+	text-align: center;
+	line-height: 95px;
+	font-size: 50px;
+}
+
+.lvl1-up {
+	margin: 1% 2%;
+	background-color: #8f91a2;
+	border-radius: 7px;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	justify-content: flex-start;
+}
+
+#levels-id {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}

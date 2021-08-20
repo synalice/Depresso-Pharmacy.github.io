@@ -30,7 +30,7 @@ function baka2toggle() {
 		document.getElementById("cover2").classList.add("yeshow");
 	} else {
 		alert(
-			"купите по 10 едениц каждого улучшения для перехода на новую ступень"
+			"Купите по 10 едениц каждого улучшения для перехода на новую ступень."
 		);
 	}
 }
@@ -43,7 +43,7 @@ function baka3toggle() {
 		document.getElementById("cover3").classList.add("yeshow");
 	} else {
 		alert(
-			"купите по 10 едениц каждого улучшения для перехода на новую ступень"
+			"Купите по 10 едениц каждого улучшения для перехода на новую ступень."
 		);
 	}
 }
@@ -56,7 +56,7 @@ function baka4toggle() {
 		document.getElementById("cover4").classList.add("yeshow");
 	} else {
 		alert(
-			"купите по 10 едениц каждого улучшения для перехода на новую ступень"
+			"Купите по 10 едениц каждого улучшения для перехода на новую ступень."
 		);
 	}
 }
@@ -475,9 +475,9 @@ window.onload = function () {
 };
 
 function gameReset() {
-	if (confirm("вы уверены, что хотите сбросить ВЕСЬ прогресс?")) {
-		if (confirm("вы сделаете людей снова счастливыми, вы у в е р е н ы?")) {
-			alert("хорошо, так тому и быть");
+	if (confirm("Вы уверены, что хотите сбросить ВЕСЬ прогресс?")) {
+		if (confirm("Вы сделаете людей снова счастливыми, вы у в е р е н ы?")) {
+			alert("Хорошо, так тому и быть.");
 			let gameSave = {};
 			localStorage.setItem("gameSave", JSON.stringify(gameSave));
 			location.reload();
