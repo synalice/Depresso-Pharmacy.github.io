@@ -2,14 +2,17 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+
+		<!-- No idea what exactly these 2 lines are doing  but they seem to be helping with resizing so I'll leave them here -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
 		<title>Depresso Pharmacy</title>
 
-		<link rel="stylesheet" href="/css/all.css" />
-		<link rel="stylesheet" href="/css/header.css" />
-		<link rel="stylesheet" href="/css/section.css" />
-		<link rel="stylesheet" href="/css/footer.css" />
+		<link rel="stylesheet" href="/css/0all.css" />
+		<link rel="stylesheet" href="/css/1header.css" />
+		<link rel="stylesheet" href="/css/2section.css" />
+		<link rel="stylesheet" href="/css/3footer.css" />
 
 		<!-- <script src="file.js"></script> -->
 	</head>
@@ -59,6 +62,7 @@
 			</div>
 		</header>
 
+		<!-- <section> is basically the main body of the page -->
 		<section>
 			<div class="clicking-area">
 				<div class="sad-text">Заработок с угробленных жизней:</div>
@@ -71,7 +75,9 @@
 				<div
 					id="tabletka-id"
 					class="tabletka-class"
-					onclick="addMoni(clickWeight)"
+
+					<!-- All js is still absolutely broken -->
+					<!-- onclick="addMoni(clickWeight)" -->
 				></div>
 				<!-- <div class="animation"></div> -->
 			</div>
@@ -272,3 +278,4 @@
 <!-- TODO: Add tabletka -->
 <!-- TODO: .sad-text не переносится при ресайзе -->
 <!-- TODO: Контакты тоже съезжают при ресайзе экрана -->
+<!-- TODO: JS needs fixing, it's absolutely broken -->
