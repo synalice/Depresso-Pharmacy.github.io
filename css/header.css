@@ -6,10 +6,27 @@ header {
 	background-position: 50% 25%;
 	margin: 0;
 
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+
+img.contact-image {
+	height: 4em;
+	width: 4em;
+}
+
+.contact-name {
+	margin: 0.125em;
+}
+
+#contacts-id {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	flex-grow: 0;
+	flex-basis: 20em;
+	align-content: center;
 }
 
 .inheader {
@@ -18,11 +35,10 @@ header {
 	margin: 2%;
 }
 
-#contacts-id {
+.contact {
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	align-content: center;
+	flex-direction: column;
+	align-items: center;
 }
 
 #inhead {
