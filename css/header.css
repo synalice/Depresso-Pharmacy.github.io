@@ -50,4 +50,5 @@ img.contact-image {
 #wojak-id {
 	background-image: url(https://i.imgur.com/O2jIiHu_d.webp?maxwidth=640&shape=thumb&fidelity=medium);
 	background-size: contain;
+	background-repeat: no-repeat;
 }
