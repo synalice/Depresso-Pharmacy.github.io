@@ -28,9 +28,7 @@ section {
 .sad-text {
 	height: 20px;
 	width: 500px;
-	/* margin-left: 50%; */
-	margin-top: 4%;
-	/* transform: translate(-50%, -50%); */
+	margin-top: 3%;
 	background-color: rgba(6, 20, 9, 0.6);
 	color: white;
 	line-height: 22px;
@@ -61,11 +59,13 @@ section {
 	background-image: url("https://i.imgur.com/8ariOk6_d.webp?maxwidth=640&shape=thumb&fidelity=medium");
 	background-repeat: no-repeat;
 	background-size: contain;
+	margin-top: 4%;
+	margin-left: 5%;
 	height: 30%;
 	width: 30%;
 }
 
-.animation {
+/* .animation {
 	height: 100px;
 	width: 100px;
 	background-color: white;
@@ -73,7 +73,7 @@ section {
 	animation-name: movenime;
 	animation-timing-function: linear;
 	display: none;
-}
+} */
 
 .levels-class {
 	height: 100px;
