@@ -1,11 +1,9 @@
 footer {
 	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
 	height: 100px;
 	background-color: rgb(148, 176, 218, 1);
-	/* padding: 20px; */
-	justify-content: space-around;
-	align-content: center;
-	flex-wrap: wrap;
 }
 
 .save-n-reset-class {
@@ -17,7 +15,7 @@ footer {
 .save {
 	height: 4.375em;
 	width: 9.375em;
-	margin: 0 10px;
+	margin-right: 10px;
 	color: white;
 	background-color: #343f3e;
 	line-height: 28px;
@@ -28,7 +26,7 @@ footer {
 .reset {
 	height: 4.375em;
 	width: 9.375em;
-	margin: 0 10px;
+	margin-left: 10px;
 	color: white;
 	background-color: #343f3e;
 	line-height: 28px;
