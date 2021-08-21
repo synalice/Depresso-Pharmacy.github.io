@@ -18,27 +18,31 @@
 	flex-direction: column;
 	width: 88%;
 	color: white;
+    justify-content: center;
 }
 
 .name-n-stuff {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	flex-wrap: wrap;
+    width: 100%;
 }
 
 .button-price {
+    z-index: 1;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
-	height: 70%;
-	width: 105%;
+	height: 60%;
+	width: 100%;
 	background-color: #505a5b;
 	text-align: center;
 	font-size: 35px;
 	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
-    transform: translate(-5%, 0);
+    padding-left: 33px;
+    transform: translate(-33px, 0);
 }
 
 .button-bought {
@@ -47,12 +51,15 @@
 }
 
 .button-name {
-	width: auto;
+	width: auto    ;
 	background-color: #505a5b;
 	color: white;
 	text-align: right;
 	line-height: 25px;
 	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+    transform: translate(-10px, 0);
+    padding-left: 20px;
+    padding-right: 5px;
 }
 
 .button-clicks-ps {
@@ -73,7 +80,7 @@
 	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
 }
 
-div#click-weighter-b div.button-img {
+div.button-img {
 	height: 128px;
 	width: 128px;
 	background-size: contain;
@@ -84,4 +91,5 @@ div#click-weighter-b div.button-img {
 	z-index: 3;
 	border-radius: 20px;
 	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+    flex: none;
 }
