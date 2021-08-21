@@ -1,7 +1,67 @@
 footer {
-	height: 100px;
-	background-color: rgb(148, 176, 218, 0.8);
-	padding: 20px;
 	display: flex;
+	height: 100px;
+	background-color: rgb(148, 176, 218, 1);
+	/* padding: 20px; */
 	justify-content: space-between;
+	align-content: center;
+	flex-wrap: wrap;
+}
+
+.save-n-reset-class {
+	display: flex;
+	flex-direction: row;
+	/* flex-wrap: wrap; */
+}
+
+.info-id {
+	flex-wrap: wrap;
+}
+
+.save {
+	height: 4.375em;
+	width: 9.375em;
+
+	margin: 5px 20px;
+	color: white;
+	background-color: #343f3e;
+	line-height: 28px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.reset {
+	height: 4.375em;
+	width: 9.375em;
+	
+	margin: 5px 20px;
+	color: white;
+	background-color: #343f3e;
+	line-height: 28px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.optimized {
+	/* height: 4.375em;
+	width: 9.375em; */
+	
+	margin-top: 5px 20px;
+	color: white;
+	background-color: #343f3e;
+	line-height: 28px;
+	text-align: center;
+	border-radius: 5px
+}
+
+.game-version {
+	/* height: 4.375em;
+	width: 9.375em; */
+	
+	margin: 5px 20px;
+	color: white;
+	background-color: #343f3e;
+	line-height: 28px;
+	text-align: center;
+	border-radius: 5px
 }

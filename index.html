@@ -4,9 +4,9 @@
 		<meta charset="UTF-8" />
 
 		<!-- No idea what exactly these 2 lines are doing  but they seem to be helping with resizing so I'll leave them here -->
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 		<title>Depresso Pharmacy</title>
 
 		<link rel="stylesheet" href="css/0all.css" />
@@ -208,31 +208,33 @@
 		<footer>
 			<div id="save-n-reset-id" class="save-n-reset-class">
 				<div
+					class="save"
 					onclick="saveGame();"
 					onclick="alert('игра сохранена!');"
-					class="save"
 				>
-					Сохранить прогресс
+					Сохранить <br />
+					прогресс
 				</div>
-				<div onclick="gameReset();" class="reset">
-					Сбросить прогресс
+				<div class="reset" onclick="gameReset();">
+					Сбросить <br />
+					прогресс
 				</div>
 			</div>
 			<div class="spravka-show" onclick="showSpravka()"></div>
 			<div id="info-id" class="info-class">
 				<div class="optimized">
-					<p>оптимизировано</p>
-					<p>для смартфонов :></p>
+					оптимизировано <br />
+					для смартфонов :>
 				</div>
-				<div class="gameVersion">версия игры: 2.43</div>
+				<div class="game-version">версия игры: 2.43</div>
 			</div>
-			<div
+			<!-- <div
 				id="allcover-id"
 				class="allcover-class"
 				onclick="hideSpravka()"
-			></div>
-			<div id="spravks-id" class="spravka-class" onclick="hideSpravka()">
-				<!--подумать, всё-ли записал-->
+			></div> -->
+			<!-- <div id="spravks-id" class="spravka-class" onclick="hideSpravka()">
+				подумать, всё-ли записал
 				<h2>Справка</h2>
 				<p></p>
 				<h1 id="wellcum">Добро пожаловать в Depresso Clicker!</h1>
@@ -267,7 +269,7 @@
 					- Чтобы закрыть это окно, нажмите в любом месте на экране
 					(кроме кнопки закрытия, пожалуйста, не надо).
 				</p>
-			</div>
+			</div> -->
 		</footer>
 	</body>
 </html>
@@ -275,5 +277,6 @@
 <!-- TODO: Fix wojack not being centered -->
 <!-- TODO: Add tabletka -->
 <!-- TODO: .sad-text не переносится при ресайзе -->
-<!-- TODO: Контакты тоже съезжают при ресайзе экрана -->
+<!-- TODO: У контактов съезжает поле имени при ресайзе экрана -->
 <!-- TODO: JS needs fixing, it's absolutely broken -->
+<!-- TODO: Make some parts of UI unselectable -->
