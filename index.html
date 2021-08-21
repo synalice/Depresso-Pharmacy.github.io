@@ -9,13 +9,17 @@
 
 		<title>Depresso Pharmacy</title>
 
+		<link rel="icon" type="image/png" href="img/favicon.ico" />
 		<link rel="stylesheet" href="css/0all.css" />
 		<link rel="stylesheet" href="css/1header.css" />
 		<link rel="stylesheet" href="css/2section.css" />
 		<link rel="stylesheet" href="css/3footer.css" />
+		<!-- A css file with all of the buttons -->
+		<link rel="stylesheet" href="css/4buttons.css" />
 
 		<!-- <script src="file.js"></script> -->
 	</head>
+
 	<body>
 		<header>
 			<div id="wojak-id" class="inheader"></div>
@@ -57,7 +61,7 @@
 						/>
 						<a href="https://github.com/synalice"></a>
 					</div>
-					<div class="contact-role">чел</div>
+					<div class="contact-role">фумо</div>
 				</div>
 			</div>
 		</header>
@@ -91,9 +95,20 @@
 						<!-- "имя-b" в id улучшений это обозначение того, что это кнопка (b от слова button), чтобы потом не перепутать -->
 						<div id="click-weighter-b" class="single-upgrade">
 							<div class="button-img"></div>
-							<div class="button-name"></div>
-							<div class="button-price"></div>
-							<div class="button-bought"></div>
+							<div class="button-info">
+								<div class="name-n-stuff">
+									<div class="button-name">усиление клика</div>
+									<div class="button-clicks-ps">+1р/сек</div>
+									<div class="button-bought">
+										<div class="button-bought-text">Куплено: </div>
+										<div class="button-bought-num">0</div>
+									</div>
+								</div>
+								<div class="button-price">
+									<div class="button-price-text">Цена:</div>
+									<div class="button-price-num">10</div>
+								</div>
+							</div>
 						</div>
 						<div id="worker-b" class="single-upgrade">
 							<div class="button-img"></div>
@@ -115,93 +130,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="lvl2-up">
-					<div class="upgrade-buttons">
-						<!-- "имя-b" в id улучшений это обозначение того, что это кнопка, чтобы потом не перепутать -->
-						<div id="migrant-b" class="single-upgrade">
-							<div class="button-img"></div>
-							<div class="button-name"></div>
-							<div class="button-price"></div>
-							<div class="button-bought"></div>
-						</div>
-						<div id="television-b" class="single-upgrade">
-							<div class="button-img"></div>
-							<div class="button-name"></div>
-							<div class="button-price"></div>
-							<div class="button-bought"></div>
-						</div>
-						<div id="sciense-b" class="single-upgrade">
-							<div class="button-img"></div>
-							<div class="button-name"></div>
-							<div class="button-price"></div>
-							<div class="button-bought"></div>
-						</div>
-						<div id="overseer-b" class="single-upgrade">
-							<div class="button-img"></div>
-							<div class="button-name"></div>
-							<div class="button-price"></div>
-							<div class="button-bought"></div>
-						</div>
-					</div>
-				</div>
-				<div class="lvl3-up">
-					<div class="upgrade-buttons">
-						<!-- "имя-b" в id улучшений это обозначение того, что это кнопка, чтобы потом не перепутать -->
-						<div id="child-b" class="single-upgrade">
-							<div class="button-img"></div>
-							<div class="button-name"></div>
-							<div class="button-price"></div>
-							<div class="button-bought"></div>
-						</div>
-						<div id="spam-b" class="single-upgrade">
-							<div class="button-img"></div>
-							<div class="button-name"></div>
-							<div class="button-price"></div>
-							<div class="button-bought"></div>
-						</div>
-						<div id="researcher-b" class="single-upgrade">
-							<div class="button-img"></div>
-							<div class="button-name"></div>
-							<div class="button-price"></div>
-							<div class="button-bought"></div>
-						</div>
-						<div id="tests-b" class="single-upgrade">
-							<div class="button-img"></div>
-							<div class="button-name"></div>
-							<div class="button-price"></div>
-							<div class="button-bought"></div>
-						</div>
-					</div>
-				</div>
-				<div class="lvl4-up">
-					<div class="upgrade-buttons">
-						<!-- "имя-b" в id улучшений это обозначение того, что это кнопка, чтобы потом не перепутать -->
-						<div id="robo-b" class="single-upgrade">
-							<div class="button-img"></div>
-							<div class="button-name"></div>
-							<div class="button-price"></div>
-							<div class="button-bought"></div>
-						</div>
-						<div id="zeppelin-b" class="single-upgrade">
-							<div class="button-img"></div>
-							<div class="button-name"></div>
-							<div class="button-price"></div>
-							<div class="button-bought"></div>
-						</div>
-						<div id="neuro-b" class="single-upgrade">
-							<div class="button-img"></div>
-							<div class="button-name"></div>
-							<div class="button-price"></div>
-							<div class="button-bought"></div>
-						</div>
-						<div id="spacehypnolaser-b" class="single-upgrade">
-							<div class="button-img"></div>
-							<div class="button-name"></div>
-							<div class="button-price"></div>
-							<div class="button-bought"></div>
-						</div>
-					</div>
-				</div>
+				<!-- lvls 2 to 4 missing here and are in temp file for now -->
 			</div>
 		</section>
 
@@ -251,7 +180,7 @@
 				</ul>
 				<p>
 					- Улучшения делятся на 4 этапа, для перехода на следующий,
-					необходимо купить по 10 едениц улучшений предыдущего этапа.
+					необходимо купить по 10 единиц улучшений предыдущего этапа.
 				</p>
 				<p>
 					- Чтобы увидеть описание улучшения, потрогайте картинку
@@ -274,10 +203,12 @@
 	</body>
 </html>
 
-<!-- TODO: Fix wojack not being centered -->
-<!-- TODO: Add tabletka -->
+<!-- TODO: Fix wojak not being centered -->
 <!-- TODO: .sad-text не переносится при ресайзе -->
 <!-- TODO: У контактов съезжает поле имени при ресайзе экрана -->
 <!-- TODO: JS needs fixing, it's absolutely broken -->
 <!-- TODO: Make some parts of UI unselectable -->
 <!-- TODO: Hover анимации кнопкам -->
+<!-- TODO: Починить прыгающий total-money, когда денег получается х.00 -->
+<!-- TODO: lvls выезжают за пределы при ресайзе -->
+<!-- TODO: Add favicon -->

@@ -1,0 +1,87 @@
+.upgrade-buttons {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.single-upgrade {
+	display: flex;
+	flex-direction: row;
+	height: 128px;
+	width: 90%;
+	margin: 1%;
+}
+
+.button-info {
+	display: flex;
+	flex-direction: column;
+	width: 88%;
+	color: white;
+}
+
+.name-n-stuff {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.button-price {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	height: 70%;
+	width: 105%;
+	background-color: #505a5b;
+	text-align: center;
+	font-size: 35px;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+    transform: translate(-5%, 0);
+}
+
+.button-bought {
+	display: flex;
+	flex-direction: row;
+}
+
+.button-name {
+	width: auto;
+	background-color: #505a5b;
+	color: white;
+	text-align: right;
+	line-height: 25px;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+}
+
+.button-clicks-ps {
+	width: auto;
+	background-color: #505a5b;
+	color: white;
+	text-align: right;
+	line-height: 25px;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+}
+
+.button-bought {
+	width: auto;
+	background-color: #505a5b;
+	color: white;
+	text-align: right;
+	line-height: 25px;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+}
+
+div#click-weighter-b div.button-img {
+	height: 128px;
+	width: 128px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(https://i.imgur.com/56Qov9g_d.webp?maxwidth=640&shape=thumb&fidelity=medium);
+	background-color: #343f3e;
+	z-index: 3;
+	border-radius: 20px;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+}
