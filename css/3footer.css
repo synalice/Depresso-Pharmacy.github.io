@@ -1,7 +1,75 @@
 footer {
-	height: 100px;
-	background-color: rgb(148, 176, 218, 0.8);
-	padding: 20px;
 	display: flex;
-	justify-content: space-between;
+	align-items: center;
+	justify-content: space-evenly;
+	height: 100px;
+	background-color: rgb(148, 176, 218, 1);
+}
+
+.save-n-reset-class {
+	display: flex;
+	align-content: center;
+	flex-wrap: wrap;
+}
+
+.save {
+	height: 4.375em;
+	width: 9.375em;
+	margin-right: 10px;
+	color: white;
+	background-color: #343f3e;
+	line-height: 28px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.reset {
+	height: 4.375em;
+	width: 9.375em;
+	margin-left: 10px;
+	color: white;
+	background-color: #343f3e;
+	line-height: 28px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.spravka {
+	background-image: url("/img/info.webp");
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 80px;
+	width: 80px;
+}
+
+.info-class {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	height: 80px;
+}
+
+.optimized {
+	/* height: 4.375em; */
+	width: 265px;
+
+	margin-top: 5px 20px;
+	color: white;
+	background-color: #343f3e;
+	line-height: 20px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.game-version {
+	/* height: 4.375em;
+	width: 9.375em; */
+
+	margin-top: 5px;
+	color: white;
+	background-color: #343f3e;
+	line-height: 28px;
+	text-align: center;
+	border-radius: 5px;
 }
