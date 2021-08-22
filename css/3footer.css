@@ -35,7 +35,7 @@ footer {
 }
 
 .spravka {
-	background-image: url("/img/info.webp");
+	background-image: url("../img/info.webp");
 	background-repeat: no-repeat;
 	background-size: contain;
 	height: 80px;
