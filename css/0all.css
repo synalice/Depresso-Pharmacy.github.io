@@ -1,13 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 html {
-    font-family: 'Press Start 2P', cursive;
-    font-size: 15px;
-    /* font-weight: bold; */
-    /* background-color: #343F3E */
+	font-family: "Press Start 2P", cursive;
+	font-size: 15px;
+	height: 100%;
+	margin: 0;
+	/* font-weight: bold; */
+	/* background-color: #343F3E */
 }
 
 body {
 	background-color: pink;
+	height: 100%;
 	margin: 0;
 	background-image: url(https://sher.media/wp-content/uploads/2020/10/2795340439_bacf3599c7_o.jpg);
+}
+
+.wraper {
+	min-height: 100%;
+	/* Equal to height of footer */
+	/* But also accounting for potential margin-bottom of last child */
+	margin-bottom: -100px;
 }

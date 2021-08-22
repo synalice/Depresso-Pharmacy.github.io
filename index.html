@@ -22,152 +22,154 @@
 	</head>
 
 	<body>
-		<header>
-			<div id="wojak-id" class="inheader"></div>
-			<div id="funny" class="inheader"></div>
-			<div id="contacts-id" class="inheader">
-				<div class="contact">
-					<div class="contact-name">каша</div>
-					<div class="contact-image">
-						<img
-							class="contact-image"
-							src="https://i.imgur.com/qtpAHS1_d.webp?maxwidth=640&shape=thumb&fidelity=medium"
-							alt="каша"
-						/>
-						<a href="https://vk.com/bruh__momentum"></a>
+		<div class="wraper">
+			<header>
+				<div id="wojak-id" class="inheader"></div>
+				<div id="funny" class="inheader"></div>
+				<div id="contacts-id" class="inheader">
+					<div class="contact">
+						<div class="contact-name">каша</div>
+						<div class="contact-image">
+							<img
+								class="contact-image"
+								src="https://i.imgur.com/qtpAHS1_d.webp?maxwidth=640&shape=thumb&fidelity=medium"
+								alt="каша"
+							/>
+							<a href="https://vk.com/bruh__momentum"></a>
+						</div>
+						<div class="contact-role">автор</div>
 					</div>
-					<div class="contact-role">автор</div>
-				</div>
-
-				<div class="contact">
-					<div class="contact-name">пура</div>
-					<div class="contact-image">
-						<img
-							class="contact-image"
-							src="https://i.imgur.com/aa5gPNs_d.webp?maxwidth=640&shape=thumb&fidelity=medium"
-							alt="пура"
-						/>
-						<a href="https://vk.com/yappppp"></a>
+	
+					<div class="contact">
+						<div class="contact-name">пура</div>
+						<div class="contact-image">
+							<img
+								class="contact-image"
+								src="https://i.imgur.com/aa5gPNs_d.webp?maxwidth=640&shape=thumb&fidelity=medium"
+								alt="пура"
+							/>
+							<a href="https://vk.com/yappppp"></a>
+						</div>
+						<div class="contact-role">тестер</div>
 					</div>
-					<div class="contact-role">тестер</div>
-				</div>
-
-				<div class="contact">
-					<div class="contact-name">син</div>
-					<div class="contact-image">
-						<img
-							class="contact-image"
-							src="https://i.imgur.com/vq1obQH.png"
-							alt="син"
-						/>
-						<a href="https://github.com/synalice"></a>
+	
+					<div class="contact">
+						<div class="contact-name">син</div>
+						<div class="contact-image">
+							<img
+								class="contact-image"
+								src="https://i.imgur.com/vq1obQH.png"
+								alt="син"
+							/>
+							<a href="https://github.com/synalice"></a>
+						</div>
+						<div class="contact-role">фумо</div>
 					</div>
-					<div class="contact-role">фумо</div>
 				</div>
-			</div>
-		</header>
-
-		<!-- <section> is basically the main body of the page -->
-		<section>
-			<div class="clicking-area">
-				<div class="sad-text">Заработок с угробленных жизней:</div>
-				<div class="total-money">
-					<span id="money">0р</span>
+			</header>
+			<!-- <section> is basically the main body of the page -->
+			<section>
+				<div class="clicking-area">
+					<div class="sad-text">Заработок с угробленных жизней:</div>
+					<div class="total-money">
+						<span id="money">0р</span>
+					</div>
+					<div class="total-money-per-sec">
+						<span id="money-per-sec">0р</span>/сек
+					</div>
+					<div
+						id="tabletka-id"
+						class="tabletka-class"
+						onclick="addMoni(clickWeight)"
+					></div>
+					<!-- <div class="animation"></div> -->
 				</div>
-				<div class="total-money-per-sec">
-					<span id="money-per-sec">0р</span>/сек
+				<div id="levels-id" class="levels-class">
+					<div class="level-button" onclick="lvl1toggle();">I</div>
+					<div class="level-button" onclick="lvl2toggle();">II</div>
+					<div class="level-button" onclick="lvl3toggle();">III</div>
+					<div class="level-button" onclick="lvl4toggle();">IV</div>
 				</div>
-				<div
-					id="tabletka-id"
-					class="tabletka-class"
-					onclick="addMoni(clickWeight)"
-				></div>
-				<!-- <div class="animation"></div> -->
-			</div>
-			<div id="levels-id" class="levels-class">
-				<div class="level-button" onclick="lvl1toggle();">I</div>
-				<div class="level-button" onclick="lvl2toggle();">II</div>
-				<div class="level-button" onclick="lvl3toggle();">III</div>
-				<div class="level-button" onclick="lvl4toggle();">IV</div>
-			</div>
-			<div class="uprades">
-				<div class="lvl1-up">
-					<div class="upgrade-buttons">
-						<!-- "имя-b" в id улучшений это обозначение того, что это кнопка (b от слова button), чтобы потом не перепутать -->
-						<div id="click-weighter-b" class="single-upgrade">
-							<div class="button-img"></div>
-							<div class="button-info">
-								<div class="name-n-stuff">
-									<div class="button-name">усиление клика</div>
-									<!-- <div class="button-clicks-ps">+1р/сек</div> -->
-									<div class="button-bought">
-										<div class="button-bought-text">Куплено: </div>
-										<div class="button-bought-num">0</div>
+				<div class="uprades">
+					<div class="lvl1-up">
+						<div class="upgrade-buttons">
+							<!-- "имя-b" в id улучшений это обозначение того, что это кнопка (b от слова button), чтобы потом не перепутать -->
+							<div id="click-weighter-b" class="single-upgrade">
+								<div class="button-img"></div>
+								<div class="button-info">
+									<div class="name-n-stuff">
+										<div class="button-name">усиление клика</div>
+										<!-- <div class="button-clicks-ps">+1р/сек</div> -->
+										<div class="button-bought">
+											<div class="button-bought-text">Куплено: </div>
+											<div class="button-bought-num">0</div>
+										</div>
+									</div>
+									<div class="button-price">
+										<div class="button-price-text">ЦЕНА:</div>
+										<div class="button-price-num">10</div>р
 									</div>
 								</div>
-								<div class="button-price">
-									<div class="button-price-text">ЦЕНА:</div>
-									<div class="button-price-num">10</div>р
+							</div>
+							<div id="worker-b" class="single-upgrade">
+								<div class="button-img"></div>
+								<div class="button-info">
+									<div class="name-n-stuff">
+										<div class="button-name">усиление клика</div>
+										<!-- <div class="button-clicks-ps">+1р/сек</div> -->
+										<div class="button-bought">
+											<div class="button-bought-text">Куплено: </div>
+											<div class="button-bought-num">0</div>
+										</div>
+									</div>
+									<div class="button-price">
+										<div class="button-price-text">ЦЕНА:</div>
+										<div class="button-price-num">10</div>р
+									</div>
+								</div>
+							</div>
+							<div id="news-ads-b" class="single-upgrade">
+								<div class="button-img"></div>
+								<div class="button-info">
+									<div class="name-n-stuff">
+										<div class="button-name">усиление клика</div>
+										<!-- <div class="button-clicks-ps">+1р/сек</div> -->
+										<div class="button-bought">
+											<div class="button-bought-text">Куплено: </div>
+											<div class="button-bought-num">0</div>
+										</div>
+									</div>
+									<div class="button-price">
+										<div class="button-price-text">ЦЕНА:</div>
+										<div class="button-price-num">10</div>р
+									</div>
+								</div>
+							</div>
+							<div id="student-b" class="single-upgrade">
+								<div class="button-img"></div>
+								<div class="button-info">
+									<div class="name-n-stuff">
+										<div class="button-name">усиление клика</div>
+										<!-- <div class="button-clicks-ps">+1р/сек</div> -->
+										<div class="button-bought">
+											<div class="button-bought-text">Куплено: </div>
+											<div class="button-bought-num">0</div>
+										</div>
+									</div>
+									<div class="button-price">
+										<div class="button-price-text">ЦЕНА:</div>
+										<div class="button-price-num">10</div>р
+									</div>
 								</div>
 							</div>
 						</div>
-						<div id="worker-b" class="single-upgrade">
-							<div class="button-img"></div>
-							<div class="button-info">
-								<div class="name-n-stuff">
-									<div class="button-name">усиление клика</div>
-									<!-- <div class="button-clicks-ps">+1р/сек</div> -->
-									<div class="button-bought">
-										<div class="button-bought-text">Куплено: </div>
-										<div class="button-bought-num">0</div>
-									</div>
-								</div>
-								<div class="button-price">
-									<div class="button-price-text">ЦЕНА:</div>
-									<div class="button-price-num">10</div>р
-								</div>
-							</div>
-						</div>
-						<div id="news-ads-b" class="single-upgrade">
-							<div class="button-img"></div>
-							<div class="button-info">
-								<div class="name-n-stuff">
-									<div class="button-name">усиление клика</div>
-									<!-- <div class="button-clicks-ps">+1р/сек</div> -->
-									<div class="button-bought">
-										<div class="button-bought-text">Куплено: </div>
-										<div class="button-bought-num">0</div>
-									</div>
-								</div>
-								<div class="button-price">
-									<div class="button-price-text">ЦЕНА:</div>
-									<div class="button-price-num">10</div>р
-								</div>
-							</div>
-						</div>
-						<div id="student-b" class="single-upgrade">
-							<div class="button-img"></div>
-							<div class="button-info">
-								<div class="name-n-stuff">
-									<div class="button-name">усиление клика</div>
-									<!-- <div class="button-clicks-ps">+1р/сек</div> -->
-									<div class="button-bought">
-										<div class="button-bought-text">Куплено: </div>
-										<div class="button-bought-num">0</div>
-									</div>
-								</div>
-								<div class="button-price">
-									<div class="button-price-text">ЦЕНА:</div>
-									<div class="button-price-num">10</div>р
-								</div>
-							</div>
-						</div>
 					</div>
+					<!-- lvls 2 to 4 missing here and are in temp file for now -->
 				</div>
-				<!-- lvls 2 to 4 missing here and are in temp file for now -->
-			</div>
-		</section>
-
+			</section>
+			<!-- This thing is here to stick <footer> to the bottom -->
+			<div class="pusher"></div>
+		</div>
 		<footer>
 			<div id="save-n-reset-id" class="save-n-reset-class">
 				<div
